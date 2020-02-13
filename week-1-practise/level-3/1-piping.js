@@ -12,8 +12,10 @@
 
 var startingValue = 5;
 
-/* DO NOT EDIT BELOW THIS LINE */
-/* --------------------------- */
+var result = pp(startingValue);
+function pp(startingValue) { 
+  return startingValue * 2 + 10;
+  }
 
 function add(a, b) {
   return a + b;
