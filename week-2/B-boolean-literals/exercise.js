@@ -6,7 +6,7 @@
 */
 
 var codeYourFutureIsGreat = true;
-
+console.log("The sun is a star?", codeYourFutureIsGreat);
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
