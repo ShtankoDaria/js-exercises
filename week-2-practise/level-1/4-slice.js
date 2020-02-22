@@ -4,6 +4,10 @@
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
+function first5(num){
+return num.slice(0,5);
+}
+
 var numbers = [1, 2, 3, 4, 5, 6, 7, 8];
 var first5Numbers = first5(numbers);
 
