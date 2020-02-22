@@ -4,14 +4,19 @@
   Using logical operators complete the unfinished statements.
   The variables should have values that match the expected results.
 */
+  if (htmlLevel > 5 || cssLevel > 5) {
+    return true;
+  }
 
+  return false;
+}
 // Do not change these two statement
 var htmlLevel = 8;
 var cssLevel = 4;
 
 // Finish the statement to check whether HTML, CSS knowledge are above 5
 // (hint: use the comparison operator from before)
-var htmlLevelAbove5;
+var htmlLevelAbove5 = ;
 var cssLevelAbove5;
 
 // Finish the next two statement
