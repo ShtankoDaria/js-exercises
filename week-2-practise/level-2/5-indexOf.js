@@ -5,10 +5,9 @@
 // TIP: Use the .indexOf() method
 
 function remove(arr, valueToRemove) {
-  return; // complete this statement
-}
 
-/* 
+  delete valueToRemove.indexOf(); return arr;}
+/*
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
 var numbers = [1, 2, 3];
