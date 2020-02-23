@@ -3,7 +3,7 @@
 
 var letters = ["a", "n", "c", "e", "z", "f"];
 var letters2 = ["w", "b", "v", "g", "l", "o"];
-var sortedLetters = letters + ","+ letters2; 
+var sortedLetters = letters.concat(letters2).sort(); 
 sortedLetters.sort();// ONLY EDIT THIS LINE
 
 console.log(sortedLetters);
