@@ -6,7 +6,8 @@
 
 function remove(arr, valueToRemove) {
 
-  delete valueToRemove.indexOf(); return arr;}
+  arr.splice(arr.indexOf(valueToRemove),1); 
+  return arr;}
 /*
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
