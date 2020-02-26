@@ -21,4 +21,7 @@ var pairs = pairsByIndex.map(function(indexes) {
   return [student, mentor];
 });
 
+var containsNegative = pairsByIndex.some(isNegative);
+
+
 console.log(pairs);
