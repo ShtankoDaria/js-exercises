@@ -45,4 +45,14 @@ PasswordValidationResult=  [false, false, false, false, true]
 
 var password = ["Se%5", "TktE.TJTU", "384HsHF", "dvyyeyY!5", "tryT3729."];
 
-console.log(PasswordValidationResult)
+  function checkPassword(str)
+  {
+    // at least one number, one lowercase and one uppercase letter
+    // at least six characters that are letters, numbers or the underscore
+    var re = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{5,}$/;
+    return re.test(str);
+  }
+var PasswordValidationResult = password.map(checkPassword);
+
+
+console.log(PasswordValidationResult);
