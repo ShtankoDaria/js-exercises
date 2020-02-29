@@ -2,4 +2,8 @@
 // Write multiple solutions using different syntax (as shown in the README)
 
 var numbers = [0.1, 0.2, 0.3, 0.4, 0.5];
-
+function newn(numb){
+return numb*100;
+}
+newnumbers = numbers.map(newn);
+console.log(newnumbers);
