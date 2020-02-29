@@ -4,7 +4,6 @@ You have an array named "attendanceCounts"  which contains all the students' nam
 Produce a new array named "eligibleStudentNames" containing only the NAMES 
 of the students who have attended AT LEAST 8 classes.
 */
-
 var attendances = [
   ["Ahmed", 8],
   ["Clement", 10],
@@ -13,9 +12,14 @@ var attendances = [
   ["Tayoa", 11],
   ["Nina", 10]
 ];
+function pres (presence){
+  if(presence[1] >=8){
+                      return presence[0];
+  }
+                     
+                     }
 
-var eligibleStudentNames; // TODO: Complete this line.
-
+var eligibleStudentNames = attendances.map(pres).filter(a=>a !== undefined);
 console.log(eligibleStudentNames);
 
 /* expected output
