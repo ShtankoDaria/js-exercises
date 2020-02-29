@@ -11,8 +11,17 @@ var londonLocations = [
   ["Tower bridge", "tube", "bus"],
   ["Greenwich", "tube", "bus", "river boat"]
 ];
+function hasrb (nameStation){
+  if (nameStation.includes("river boat")){
+return nameStation[0];
+  }
 
-var locationsByBoat;
+
+}
+
+var locationsByBoat = londonLocations.map(hasrb).filter(a => a !== undefined);
+
+ 
 
 console.log(locationsByBoat);
 
